@@ -1,2 +1,2 @@
-name = "Teresa"+ "D'Anna"
+name = "Teresa"+ " D'Anna"
 puts name

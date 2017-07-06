@@ -7,11 +7,13 @@ movie_titles =
   Movie_6: 2017
   }
 
+puts "by doing a loop from a hash:"
 movie_titles.each do |x, y|
   puts y
   end
 
 #or
 
-movie_titles[House_of_Cards]
+puts "by doing hash[:key]"
+puts movie_titles[:House_of_Cards]
 

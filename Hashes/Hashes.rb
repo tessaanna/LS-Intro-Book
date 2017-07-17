@@ -39,4 +39,34 @@ wordings =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
           'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
           'flow', 'neon']
 
-puts "6 7 and 8 arent done yet"
+#w_reverse = []
+#wordings.each { |x| w_reverse.push(x.reverse)}
+
+#wordings_hash = Hash[wordings.zip(w_reverse)]
+#wordings_hash.each { |x, y| y.push(y[3])}
+#puts wordings_hash
+
+result = {}
+wordings.each do |word|
+  key = word.split('').sort.join
+  if result.has_key?(key)
+    result[key].push(word)
+  else
+    result[key] = [word]
+  end
+end
+
+result.each do |k, v|
+  puts "------"
+  p v
+end
+
+puts ""
+puts "Question 7"
+puts "Symbol verse string"
+
+puts ""
+puts "Question 8"
+
+puts "keys are from hashes not arrays"
+puts "7 and 8 arent done yet"

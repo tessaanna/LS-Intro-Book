@@ -1,3 +1,5 @@
+puts "Exercise 1"
+
 simple = File.read("simple_file.txt")
 original = File.new("original_file.txt", "w+")
 File.open(original, "a") do |file|
@@ -5,3 +7,5 @@ File.open(original, "a") do |file|
 end
 
 File.read(original)
+
+puts "Exercise 2"

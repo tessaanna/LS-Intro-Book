@@ -1,0 +1,2 @@
+Another line
+here we are with a new linewriting to files in ruby is simple
